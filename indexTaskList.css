@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        text-align: center;
+        
+        overflow-x: hidden;
+    }
+.cardContainer
+{
+    width: 70vw;
+ background-color: white(240, 168, 60);
+ margin:1% 15%;
+    margin-top: 9%;    
+    
+}
+.cardContainerHeader{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+    
+    
+    
+   
+}
+hr { width:114%; height:2px; background: #fff ;  }
+.card{
+    background-color: white;
+    /* padding: 1%; */
+    padding: 3%;
+    height: 50vh;
+    margin: 2%;
+    line-height: 32px;
+    border: 1px solid rgb(226, 135, 135);
+    border-radius: 12px;
+    align-content: space-between;
+    box-shadow: 1px 2px 5px gray;
+    transition: transform .6s;
+}
+.card:hover{
+    box-shadow: 15px 15px 20px gray;
+    transform: scale(1.09,1.09);
+
+}
+.cards{
+    display: flex;
+    width: 70vw;
+    flex-wrap: wrap  ;
+    justify-content: space-around;  
+    padding: 2%;
+}
+.mainSpan{
+    display: flex;
+    /* margin-left: 79px; */
+   
+}
+
+.task{
+    font-size: 3rem;    
+    font-weight: bold;
+    padding: 12px;
+    
+}
+.list{
+    font-size: 3rem;  
+    padding: 12px; 
+    font-weight: lighter; 
+    color: rgb(122, 122, 122);
+}
+
+.side{
+    font-size: 2.56rem;
+    margin-right: 9px;
+    margin-top: 4px;
+    
+}
+.cardHeader{
+    /* margin-top: -25px; */
+    font-size: 1.5rem;
+    color: rgb(214, 96, 96)  ;
+}
+.cTask{
+    font-size: 20px;
+    color: red;
+    margin-top: 22px;
+    text-decoration: line-through;
+    
+
+}
+.sideIcon{
+    color: #e74c4c
+    
+}
+
+.sideIcon:hover{
+    color: #e92626;
+    transform: scale(1.09,1.09);
+    
+}
+.sideIcon:active{
+    transform : scale(1.05,1.05)
+}
+.pendingIcon{
+    padding: 12px;
+}
+.pendingIcon:hover{
+    transform: scale(1.09,1.09);
+}
+.pendingIcon:active{
+    transform : scale(1.05,1.05)
+}
+.pendingTask{
+    font-size: 25px;
+}
+.arrow{
+    position: absolute;
+    right: 65px;
+    top: 350px;
+    color: #e92626;
+}
+.arrow:hover{
+    color: #e92626;
+    transform: scale(1.09,1.09);
+    
+}
+.arrow:active{
+    transform : scale(1.05,1.05)
+}
